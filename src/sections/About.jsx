@@ -2,22 +2,26 @@ import { portfolioData } from '../data/portfolioData.js';
 
 const About = () => {
   return (
-    <section id="about" className="py-20">
-      <div className="max-w-6xl mx-auto px-6">
-        <h2 className="text-5xl font-bold heading-font text-center mb-16">About Me</h2>
+    <section id="about">
+      <div className="about-container max-width">
+        <div>
+          <img 
+            src={portfolioData.about.image} 
+            alt="Profile"
+            style={{width: "100%", borderRadius: "20px", boxShadow: "0 20px 40px rgba(0,0,0,0.4)"}}
+          />
+        </div>
         
-        <div className="grid md:grid-cols-2 gap-16 items-center">
+        <div className="about-text">
+          <h2>About Me</h2>
+          <p>I am a Computer Science student focused on becoming a strong software engineer. I am currently learning data structures, web development, and artificial intelligence through hands-on projects.</p>
+          <p style={{marginTop: "1.2rem"}}>
+            Instead of just consuming tutorials, I focus on understanding concepts deeply and applying them by building real projects.
+          </p>
           
-          <div className="space-y-6 text-lg">
-            <p>{portfolioData.about.description}</p>
-            
-            <a 
-              href={portfolioData.about.resumeLink}
-              className="btn btn-primary inline-block mt-6"
-            >
-              Download Resume
-            </a>
-          </div>
+          <a href="#" className="btn btn-primary" style={{marginTop: "2rem", display: "inline-block"}}>
+            Download Resume
+          </a>
         </div>
       </div>
     </section>

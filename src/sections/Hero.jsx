@@ -3,31 +3,26 @@ import { portfolioData } from '../data/portfolioData.js';
 const Hero = () => {
   return (
     <section id="hero" className="hero">
-      <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center min-h-screen">
-        <div className="hero-content space-y-6">
-          <h1 className="heading-font text-6xl md:text-7xl font-bold leading-tight">
-            Hi, I'm <span style={{ color: '#6366f1' }}>{portfolioData.name}</span>
-          </h1>
+      <div className="hero-content">
+        <div className="hero-text">
+          <h1>Hi, I'm <span style={{color: "#6366f1"}}>Kumari Pratibha</span></h1>
+          <h2>Aspiring NLP Engineer and Data Scientist</h2>
+          <p>Building real skills through consistent learning, projects, and problem-solving.</p>
           
-          <h2 className="text-3xl md:text-4xl text-gray-400">
-            {portfolioData.title}
-          </h2>
-          
-          <p className="text-xl text-gray-300 max-w-lg">
-            {portfolioData.shortIntro}
-          </p>
-
-          <div className="flex gap-4 pt-6">
-            <a href="#projects" className="btn btn-primary">View My Projects</a>
-            <a href="#contact" className="btn btn-outline">Get In Touch</a>
+          <div style={{marginTop: "2.5rem", display: "flex", gap: "1rem", flexWrap: "wrap"}}>
+            <a href="#projects" className="btn btn-primary" style={{padding: "14px 32px", fontSize: "1.1rem"}}>
+              View My Projects
+            </a>
+            <a href="#contact" className="btn btn-outline" style={{padding: "14px 32px", fontSize: "1.1rem"}}>
+              Get In Touch
+            </a>
           </div>
         </div>
 
-        <div className="flex justify-center md:justify-end">
+        <div className="hero-image">
           <img 
             src={portfolioData.about.image} 
-            alt={portfolioData.name}
-            className="w-80 h-80 rounded-2xl object-cover shadow-2xl border-4 border-indigo-500/30"
+            alt="Kumari Pratibha"
           />
         </div>
       </div>

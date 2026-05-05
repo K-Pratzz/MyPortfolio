@@ -19,7 +19,7 @@ export const portfolioData = {
      "Python", "JavaScript","HTML","CSS",
     "React", 
     "Data Structures & Algorithms",
-    "Machine Learning","NLP","Deep Learning(Learning)",
+    "Machine Learning","NLP","Deep Learning(In Progress)",
     "Git & GitHub",
     "Problem Solving"
   ],
