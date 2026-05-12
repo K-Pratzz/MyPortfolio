@@ -4,13 +4,14 @@ const Hero = () => {
   return (
     <section id="hero" style={{
       minHeight: "100vh",
-      paddingTop: "200px",     // Increased padding to avoid overlap
+      paddingTop: "130px",           // Extra space to avoid navbar overlap
       background: "linear-gradient(135deg, #0f172a 0%, #1e2937 100%)",
       display: "flex",
       alignItems: "center"
     }}>
+      
       <div style={{
-        maxWidth: "1300px",
+        maxWidth: "1400px",
         margin: "0 auto",
         padding: "0 3rem",
         display: "grid",
@@ -21,25 +22,32 @@ const Hero = () => {
       }}>
         
         <div>
-          <h1 style={{ fontSize: "4.2rem", lineHeight: "1.1", marginBottom: "1rem", color: "#ffffff" }}>
+          {/* Single Line Name */}
+          <h1 style={{ 
+            fontSize: "4.1rem", 
+            lineHeight: "1.1", 
+            marginBottom: "1rem",
+            color: "#ffffff",
+            whiteSpace: "nowrap" , paddingTop:"50px"          // This forces it to stay in one line
+          }}>
             Hi, I'm Kumari Pratibha
           </h1>
           
           <h2 style={{ 
-            fontSize: "2.1rem", 
+            fontSize: "2rem", 
             color: "#a5b4fc", 
-            marginBottom: "1.8rem" 
+            marginBottom: "1.8rem" , textAlign :"left"
           }}>
-            Aspiring NLP Engineer
+            Aspiring NLP Engineer & Software Developer
           </h2>
           
           <p style={{ 
             fontSize: "1.35rem", 
             color: "#e0e0e0", 
-            maxWidth: "520px",
+            maxWidth: "650px",
             lineHeight: "1.7"
           }}>
-            Passionate about building intelligent systems and solving real-world problems with AI and Machine Learning.
+            Passionate about building intelligent systems, solving real-world problems with AI, and continuously improving through hands-on development and deep technical learning.
           </p>
 
           <div style={{ marginTop: "3.5rem", display: "flex", gap: "1.5rem", flexWrap: "wrap" }}>
@@ -57,7 +65,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div style={{ textAlign: "center" }}>
+        <div style={{ textAlign: "center", paddingTop:"50px" }}>
           <img 
             src={portfolioData.about.image} 
             alt="Kumari Pratibha"

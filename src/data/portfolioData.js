@@ -8,7 +8,7 @@ export const portfolioData = {
   shortIntro: "Building real skills through consistent learning, projects, and problem-solving.",
 
   about: {
-    description: "I am a Computer Science student focused on becoming a strong software engineer. I am currently learning data structures, web development, and artificial intelligence through hands-on projects. Instead of just consuming tutorials, I focus on understanding concepts deeply and applying them by building real projects. My goal is to secure a high-paying tech role and continuously grow my technical and problem-solving skills.",
+    description: "I am a Computer Science student with strong interest in Artificial Intelligence, Natural Language Processing, and software engineering. Rather than only following tutorials, I focus on understanding concepts deeply and implementing them through projects and experimentation.I am currently improving my problem-solving skills through Data Structures & Algorithms while also exploring Machine Learning, Deep Learning, and modern web development. I enjoy building projects that combine logic, creativity, and real-world usefulness.My long-term goal is to become a skilled NLP Engineer and contribute to intelligent systems that solve meaningful human problems.",
     
     image: me,
 
