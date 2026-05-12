@@ -3,25 +3,27 @@ import { portfolioData } from '../data/portfolioData.js';
 const About = () => {
   return (
     <section id="about">
-      <div className="about-container max-width">
-        <div>
-          <img 
-            src={portfolioData.about.image} 
-            alt="Profile"
-            style={{width: "100%", borderRadius: "20px", boxShadow: "0 20px 40px rgba(0,0,0,0.4)"}}
-          />
-        </div>
+      <div className="max-width" style={{maxWidth: "1100px", margin: "0 auto", padding: "0 2rem"}}>
+        <h2>About Me</h2>
         
-        <div className="about-text">
-          <h2>About Me</h2>
-          <p>I am a Computer Science student focused on becoming a strong software engineer. I am currently learning data structures, web development, and artificial intelligence through hands-on projects.</p>
-          <p style={{marginTop: "1.2rem"}}>
-            Instead of just consuming tutorials, I focus on understanding concepts deeply and applying them by building real projects.
-          </p>
-          
-          <a href="#" className="btn btn-primary" style={{marginTop: "2rem", display: "inline-block"}}>
-            Download Resume
-          </a>
+        <div style={{display: "grid", gridTemplateColumns: "1fr 1fr", gap: "5rem", alignItems: "center"}}>
+          <div>
+            <p style={{fontSize: "1.25rem", lineHeight: "1.9", color: "#cbd5e1"}}>
+              {portfolioData.about.description}
+            </p>
+            <p style={{fontSize: "1.25rem", lineHeight: "1.9", color: "#cbd5e1", marginTop: "1.5rem"}}>
+              I focus on deep understanding of concepts and building real projects rather than just watching tutorials. 
+              My goal is to become a skilled NLP Engineer and contribute to meaningful AI solutions.
+            </p>
+          </div>
+
+          <div>
+            <img 
+              src={portfolioData.about.image} 
+              alt="Kumari Pratibha"
+              style={{width: "100%", borderRadius: "20px", boxShadow: "0 25px 50px rgba(0,0,0,0.5)"}}
+            />
+          </div>
         </div>
       </div>
     </section>

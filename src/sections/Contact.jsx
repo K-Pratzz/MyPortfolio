@@ -2,23 +2,28 @@ import { portfolioData } from '../data/portfolioData.js';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-[#111] light-mode:bg-gray-100">
-      <div className="max-w-4xl mx-auto px-6 text-center">
-        <h2 className="text-5xl font-bold heading-font mb-8">Let's Work Together</h2>
-        <p className="text-xl mb-10 text-gray-400">Have a project in mind? Feel free to reach out.</p>
+    <section id="contact">
+      <div style={{maxWidth: "800px", margin: "0 auto", textAlign: "center", padding: "0 2rem"}}>
+        <h2>Let's Connect</h2>
+        <p style={{fontSize: "1.4rem", margin: "2rem 0 3rem", color: "#cbd5e1"}}>
+          I'm always open to discussing new opportunities, interesting projects, or just saying hello.
+        </p>
 
         <a 
-          href={`mailto:${portfolioData.contact.email}`}
-          className="btn btn-primary text-xl px-12 py-6 inline-block"
+          href={`mailto:${portfolioData.contact.email}`} 
+          className="btn btn-primary"
+          style={{fontSize: "1.3rem", padding: "20px 48px"}}
         >
-          Say Hello 👋
+          Send Me a Message
         </a>
-
-        <div className="flex justify-center gap-8 mt-16">
-          <a href={portfolioData.contact.github} target="_blank" className="text-3xl hover:text-indigo-400">GitHub</a>
-          <a href={portfolioData.contact.linkedin} target="_blank" className="text-3xl hover:text-indigo-400">LinkedIn</a>
-        </div>
       </div>
+
+      {/* Footer */}
+      <footer style={{marginTop: "120px", padding: "50px 0", borderTop: "1px solid #334155", textAlign: "center"}}>
+        <p style={{fontSize: "1.1rem"}}>
+          © 2026 Kumari Pratibha • Built with passion
+        </p>
+      </footer>
     </section>
   );
 };
