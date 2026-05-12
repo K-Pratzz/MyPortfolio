@@ -11,9 +11,7 @@ const About = () => {
             <p style={{fontSize: "1.25rem", lineHeight: "1.9", color: "#cbd5e1"}}>
               {portfolioData.about.description}
             </p>
-            <p style={{fontSize: "1.25rem", lineHeight: "1.9", color: "#cbd5e1", marginTop: "1.5rem"}}>
-              I focus on deep understanding of concepts and building real projects rather than just watching tutorials. 
-              My goal is to become a skilled NLP Engineer and contribute to meaningful AI solutions.
+            <p style={{fontSize: "1.25rem", lineHeight: "1.9", color: "#cbd5e1", marginTop: "1.5rem"}}>My long-term goal is to become a skilled NLP Engineer and contribute to intelligent systems that solve meaningful human problems.
             </p>
           </div>
 

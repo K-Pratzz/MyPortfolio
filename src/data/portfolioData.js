@@ -8,21 +8,20 @@ export const portfolioData = {
   shortIntro: "Building real skills through consistent learning, projects, and problem-solving.",
 
   about: {
-    description: "I am a Computer Science student with strong interest in Artificial Intelligence, Natural Language Processing, and software engineering. Rather than only following tutorials, I focus on understanding concepts deeply and implementing them through projects and experimentation.I am currently improving my problem-solving skills through Data Structures & Algorithms while also exploring Machine Learning, Deep Learning, and modern web development. I enjoy building projects that combine logic, creativity, and real-world usefulness.My long-term goal is to become a skilled NLP Engineer and contribute to intelligent systems that solve meaningful human problems.",
+    description: "I am a Computer Science student with strong interest in Artificial Intelligence, Natural Language Processing, and software engineering. Rather than only following tutorials, I focus on understanding concepts deeply and implementing them through projects and experimentation.I am currently improving my problem-solving skills through Data Structures & Algorithms while also exploring Machine Learning, Deep Learning, and modern web development. I enjoy building projects that combine logic, creativity, and real-world usefulness.",
     
     image: me,
 
     resumeLink: "https://canva.link/d0ncblzvse1q4d5"
   },
 
-  skills: [
-     "Python", "JavaScript","HTML","CSS",
-    "React", 
-    "Data Structures & Algorithms",
-    "Machine Learning","NLP","Deep Learning",
-    "Git & GitHub",
-    "Problem Solving"
-  ],
+  skills: {
+    "Programming Languages": ["Python", "JavaScript"],
+    "Web Development": ["HTML", "CSS", "React.js", "Responsive Design"],
+    "AI & Data Science": ["Machine Learning", "Natural Language Processing", "Deep Learning", "NumPy", "Pandas", "Scikit-learn"],
+    "Computer Science Fundamentals": ["Data Structures & Algorithms", "Problem Solving", "Object-Oriented Programming"],
+    "Tools & Technologies": ["Git", "GitHub", "VS Code", "Canva"]
+  },
 
   projects: [
     {
