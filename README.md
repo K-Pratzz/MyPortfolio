@@ -1,16 +1,47 @@
-# React + Vite
+# Kumari Pratibha | Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Preview](https://github.com/K-Pratzz/MyPortfolio/blob/main/public/preview.png)
 
-Currently, two official plugins are available:
+A modern, clean, and fully responsive personal portfolio website built to showcase my skills, projects, and journey as an aspiring **NLP Engineer & Data Scientist**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- **Modern & Premium Design** with smooth animations
+- **Dark & Light Mode** toggle
+- **Fully Responsive** (Mobile + Tablet + Desktop)
+- **Categorized Skills** section
+- **Smooth Scrolling** navigation
+- **Hover Animations** on cards and buttons
+- Built with clean, maintainable code
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **React.js** (Vite)
+- **JavaScript (ES6+)**
+- **Vanilla CSS** (No Tailwind)
+- **React Hooks** (useState, useEffect)
+- **Responsive Design**
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📋 Sections
+
+- Hero / Landing
+- About Me
+- Skills & Technologies (Categorized)
+- Featured Projects
+- Contact
+- Footer
+
+## 🎯 Purpose
+
+This portfolio was built to:
+- Practice and showcase **React.js** skills
+- Present my profile professionally to recruiters
+- Demonstrate clean code structure and modern UI/UX
+
+## 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/K-Pratzz/MyPortfolio.git
+cd MyPortfolio
+npm install
+npm run dev
