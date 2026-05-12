@@ -1,7 +1,5 @@
 # Kumari Pratibha | Personal Portfolio
 
-![Portfolio Preview](https://github.com/K-Pratzz/MyPortfolio/blob/main/public/preview.png)
-
 A modern, clean, and fully responsive personal portfolio website built to showcase my skills, projects, and journey as an aspiring **NLP Engineer & Data Scientist**.
 
 ## ✨ Features
